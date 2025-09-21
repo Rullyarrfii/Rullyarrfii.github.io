@@ -1,16 +1,19 @@
-body {
-    margin-top: 50px;
+.slider h3,
+.slider h5,
+.clients h3 {
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
 }
 
-.jumbotron img {
-    width: 25%;
+.parallax-container {
+    height: 20%;
 }
 
-section {
-    min-height: 420px;
+.parallax img {
+    filter: grayscale(1);
+    opacity: 0.5 !important;
 }
 
-footer {
-    min-height: 50px;
-    padding-top:12px;
+.clients img {
+    max-width: 150px;
+    filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.8));
 }
